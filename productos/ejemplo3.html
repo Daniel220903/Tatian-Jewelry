@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+    user-scalable=no , maximum-scale=1.0, minimal-scale=1.0">
+    <title>Nombre del producto</title>
+    <!--Estilos-->
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/zoom-folder.css">
+    <link rel="stylesheet" type="text/css" href="../css/productos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--<link rel="stylesheet" href="../css/magnify.css">-->
+    <!--Scripts-->
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/zoomalt.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>-->
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="main-header__container">
+                <h1 class="main-header__title">tatian jewelry</h1>
+                <span class="icon-menu" id="btn-menu"><i class="fas fa-bars"></i></span>
+                <nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu__item"><a href="../index.html" class="menu__link">INICIO</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">COLLARES</a></li>
+                        <li class="menu__item"><a href="../contactanos.html" class="menu__link">CONTACTANOS</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">OFERTAS</a></li>
+                        <li class="menu__item"><a href="" class="menu__link">SOBRE NOSOTROS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main-header__container">
+                <span class="main-header__txt">Necesitas ayuda</span>
+                <p class="main-header__txt"><i class="fas fa-phone"></i> llama 12345678099</p>
+            </div>
+            <div class="main-header__container">
+                <a href="" class="main-header__link"><i class="fas fa-user"></i></a>
+                <a href="" class="main-header__btn">My cart <i class="fas fa-shopping-cart"></i></a>
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="product">
+        <div class="product-flex">
+            <div class="img-container">
+                <img src="../img/muestra1.jpg" id="image" alt="" class="image imagen">
+                <div class="product-small-img ">
+                    <img src="../img/muestra1.jpg " id="image" data="../img/muestra1.jpg" onclick="myFunction(this) ">
+                    <img src="../img/muestra2.jpg " id="image" data="../img/muestra2.jpg" onclick="myFunction(this) ">
+                    <img src="../img/muestra3.jpg " id="image" data="../img/muestra3.jpg" onclick="myFunction(this) ">
+                </div>
+            </div>
+            <div class="lateral-container ">
+
+                <div class="info-container ">
+                    <div class="top-container ">
+                        <h1 class="name-poduct "><span class="span-name-product ">Nombre del collar </span></h1>
+                        <h2 class="original-price "><del>$MXN1200.00</del></h2>
+                        <!--<p class="discount-text ">54%</p>-->
+                        <div class="info-top ">
+                            <h1 class="price-poduct "><span class="span-price-product ">$MXN900.00</span></h1>
+                        </div>
+
+
+                    </div>
+                    <div class="middle-container ">
+                        <h2>Descripcion:</h2>
+                        <p><b>Material: </b>Oro</p>
+                        <p><b>Descripcion: </b>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, rerum reiciendis. Eligendi harum ea debitis fugit perferendis beatae consequatur. Magni quas nam nemo odio voluptas expedita porro, voluptate ipsam
+                            nesciunt.
+                        </p>
+                        <p><b>Ancho: </b>5 cm</p>
+                        <p><b>Largo: </b> </p>
+                        <div class="product-choose-large">
+                            <a href="" class="choose">5 cm </a> <a href="" class="choose"> 20 cm</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--INFO DEL PRODUCTO-->
+    </div>
+
+    <!--Este es el de la ventana emergente de los productos-->
+    <script type="text/javascript" src="../js/window.js"></script>
+    <!--Este es el de las funciones del menu desplegable responsive-->
+    <script type="text/javascript " src="../js/functions.js "></script>
+    <!--Este es el de la galeria para seleccionar la imagen-->
+    <script type="text/javascript " src="../js/show-product.js "></script>
+
+</body>
+
+</html>

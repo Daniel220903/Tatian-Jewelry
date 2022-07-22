@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+main {
+    padding: 50px;
+}
+
+article h3 {
+    font-size: 40px;
+    color: #1d1b31;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+article p {
+    color: #76757b;
+    font-size: 25px;
+    text-align: justify;
+}
+
+@media(max-width:768px) {
+    .contenido .info h1 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:690px) {
+    main {
+        padding: 30px;
+    }
+}
+
+@media(max-width:471px) {
+    main {
+        padding: 10px;
+    }
+    article p {
+        color: #76757b;
+        font-size: 22px;
+        text-align: justify;
+    }
+}

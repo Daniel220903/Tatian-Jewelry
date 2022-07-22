@@ -1,0 +1,241 @@
+.product {
+    margin: 4em auto;
+    width: 88%;
+}
+
+.product-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-small-img img {
+    width: 103.5px;
+    height: 69px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 8px;
+    margin: 10px 0px 0px;
+    cursor: pointer;
+}
+
+.product-small-img img:nth-child(2) {
+    margin: 10px 10px 15px;
+}
+
+.product-small-img {
+    display: flex;
+}
+
+.img-container {
+    width: 45%;
+}
+
+.img-container img {}
+
+
+/*DISEÑOS LATERALES*/
+
+.info-top {
+    /*margin-left: 27%;
+    margin-top: 10px;*/
+}
+
+.name-poduct {
+    /*text-align: center;*/
+    padding: 0;
+    margin: 0px 0px 30px 0px;
+    color: #333;
+}
+
+.span-name-product {
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.price-poduct {
+    /*text-align: center;*/
+    display: inline;
+    margin: 0px 0px 0px 0px;
+}
+
+.span-price-product {
+    color: #22920C;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.original-price {
+    font-size: 16px;
+    font-weight: 1000;
+    margin: 10px 0px 0px 0px;
+    color: #FF2700;
+}
+
+.choose {
+    text-decoration: none;
+    color: #000;
+    width: 20%;
+    text-align: center;
+    margin-right: 40px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.product-choose-large {
+    display: flex;
+}
+
+.discount-text {
+    display: inline;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    padding: 8px;
+    margin-left: 46%;
+}
+
+.lateral-container {
+    width: 35%;
+    border-radius: 5px;
+    /*border: 1px solid #333;*/
+    position: relative;
+}
+
+.top-container {
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.lateral-container::before {
+    text-align: center;
+    content: "25% OFF";
+    background: #e03400;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 21px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.middle-container {
+    width: 95%;
+    margin: auto;
+}
+
+@media screen and (max-width:500px) {
+    .img-container img {
+        height: 180px!important;
+    }
+    .img-container {
+        width: 100%;
+    }
+    .product-small-img {
+        width: 20%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .img-container img {
+        height: 260px!important;
+    }
+    .img-container {
+        width: 100%;
+    }
+    .product-small-img {
+        width: 16%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .product-flex {
+        display: block;
+    }
+    .img-container img {
+        height: 360px;
+    }
+    .img-container {
+        width: 100%;
+    }
+    .product-small-img {
+        width: 14%;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:839px) {
+    .lateral-container::before {
+        text-align: center;
+        content: "30% OFF";
+        background: #e03400;
+        padding: 10px;
+        width: 60px;
+        position: absolute;
+        top: 172px!important;
+        right: -20px;
+        transform: rotate(-90deg);
+        color: white;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .lateral-container::before {
+        text-align: center;
+        content: "30% OFF";
+        background: #e03400;
+        padding: 10px;
+        width: 60px;
+        position: absolute;
+        top: 58px;
+        right: -20px;
+        transform: rotate(-90deg);
+        color: white;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .img-container img {
+        width: 90%;
+    }
+    .img-container {
+        width: 100%;
+    }
+    .product-small-img {
+        display: flex;
+    }
+    .product-small-img img {
+        width: 76.7px;
+        height: 51.1px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .lateral-container {
+        width: 45%;
+    }
+    .lateral-container::before {
+        text-align: center;
+        content: "30% OFF";
+        background: #e03400;
+        padding: 10px;
+        width: 60px;
+        position: absolute;
+        top: 58px;
+        right: -20px;
+        transform: rotate(-90deg);
+        color: white;
+    }
+}
+
+@media screen and (min-width:1124px) {
+    .img-container img {}
+    .img-container {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1280px) {}
+
+@media screen and (min-width:1600px) {}
